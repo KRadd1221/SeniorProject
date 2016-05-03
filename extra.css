@@ -1,0 +1,54 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+td.details-control {
+    background: url('images/details_open.png') no-repeat center center;
+    cursor: pointer;
+  line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+}
+tr.shown td.details-control {
+     line-height: 0; 
+    font-size: 0;
+    color: transparent; 
+}
+td.highlight {
+        font-weight: bold;
+        color: blue;
+    }
+div.flexbox {
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            overflow: hidden;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        div.panel-wizard {
+            flex: 1 1 auto;
+        }
+.col-centered{
+float: none;
+margin: 0 auto;
+}
